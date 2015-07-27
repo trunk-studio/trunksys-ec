@@ -1,4 +1,4 @@
-package hello;
+package com.trunksys.ecommerce.controller;
 
 public class Greeting {
 

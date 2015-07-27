@@ -1,13 +1,13 @@
-package hello;
+package com.trunksys.ecommerce;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class HelloWorldConfiguration {
+public class ApplicationConfiguration {
 
 	public static void main(String[] args) {
-		SpringApplication.run(HelloWorldConfiguration.class, args);
+		SpringApplication.run(ApplicationConfiguration.class, args);
 	}
 
 }

@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package hello;
+package com.trunksys.ecommerce;
 
 import java.util.Map;
 
@@ -37,7 +37,7 @@ import static org.junit.Assert.assertEquals;
  * @author Dave Syer
  */
 @RunWith(SpringJUnit4ClassRunner.class)
-@SpringApplicationConfiguration(classes = HelloWorldConfiguration.class)
+@SpringApplicationConfiguration(classes = ApplicationConfiguration.class)
 @WebAppConfiguration
 @IntegrationTest({ "server.port=0", "management.port=0" })
 @DirtiesContext
